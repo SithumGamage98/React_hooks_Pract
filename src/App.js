@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Hooks_component from './components/Hooks_component';
+import Hooks_functionC_UseState from './components/Hooks_functionC_UseState';
+import Hooks_function2_counter from './components/Hooks_function2_counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Hooks_component/>*/}
+     {/* <Hooks_functionC_UseState/> */}
+     <Hooks_function2_counter/>
+
     </div>
   );
 }
