@@ -14,7 +14,7 @@ export default function Hooks_Array_UseState() {
        setItem([...items,{
 
         id : items.length,
-        value : Math.floor(Math.random() * 10) + 1 
+        value : /*Math.floor(Math.random() * 10)*/ items.length +1
 
        }])
 
@@ -25,7 +25,7 @@ export default function Hooks_Array_UseState() {
     <div>
         
         <h2>Hooks_Array_UseState</h2>
-        <div><button onClick={AddItems}>Add Items</button></div>
+        <div><button onClick={()=>AddItems()}>Add Items</button></div>
         <ul>
 
             {items.map(items => (
