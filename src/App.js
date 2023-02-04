@@ -7,6 +7,8 @@ import Hooks_counter3 from './components_state_setState/Hooks_counter3';
 import Hooks_Array_UseState from './components_state_setState/Hooks_Array_UseState';
 
 import Counter_and_docTitle from './components_useEffect/Counter_and_docTitle';
+import Conditionally_run from './components_useEffect/Conditionally_run';
+import Only_once_useEffect from './components_useEffect/Only_once_useEffect';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
     {/* <Hooks_Array_UseState/>*/}
 
      {/*----------FOR useEffect HOOK-----------*/}
-     <Counter_and_docTitle/>
+     {/*<Counter_and_docTitle/>*/}
+     {/*<Conditionally_run/>*/}
+    <Only_once_useEffect/>
 
     </div>
   );
