@@ -12,22 +12,11 @@ class Hooks_component extends Component {
       count : 0
    }
  }
-
-    increNumber = () => {
-
+   increNumber = () => {
         this.setState({
-
-            count:this.state.count+1
-
-
+          count:this.state.count+1
         })
-
-
-
     }
-
-    
-
   render() {
     return (
       <div>
