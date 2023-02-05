@@ -11,11 +11,7 @@ export default function Counter_and_docTitle() {
 
         console.log('Clicked useEffect')
         document.title = `You clicked ${count}` 
-
-
-
     })
-
   return (
     <div>
 
