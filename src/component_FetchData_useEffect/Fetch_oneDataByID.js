@@ -17,18 +17,14 @@ export default function Fetch_oneDataByID() {
 
         console.log(res)
         setPost(res.data)
-
     
    }).catch(err=>{
-
     console.log(err);
-
    })
 },[id])
 
   return (
     <div>Only One
-
      <input type="text" value={id} onChange={e=>setID(e.target.value)}></input>
      <h2>{post.title}</h2>
     
@@ -39,9 +35,6 @@ export default function Fetch_oneDataByID() {
 
     })}
     </ul> */}
-
-
-
     </div>
   )
 }
