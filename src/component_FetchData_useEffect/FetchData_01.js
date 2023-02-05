@@ -16,25 +16,16 @@ export default function FetchData_01() {
 
         }).catch(err=>{
             console.log(err);
-
         })
     },[])
 
-
-
   return (
-    <div>
-                    
-    <ul>
-        
+    <div>            
+    <ul> 
      {posts.map(post=>(
-
         <li key={post.id}>{post.title}</li>
-
      )
-
      )}
-
     </ul>
     </div>
   )
