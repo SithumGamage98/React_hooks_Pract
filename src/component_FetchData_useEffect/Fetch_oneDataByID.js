@@ -5,10 +5,9 @@ export default function Fetch_oneDataByID() {
 
     //useState for a Post
    const [post,setPost] = useState({})
-
+   
    //useEffect forid
    const [id,setID] = useState(1)
-
 
    useEffect(()=>{
 
