@@ -19,13 +19,17 @@ import Id_from_buttonClick from './component_FetchData_useEffect/Id_from_buttonC
 
 //Context Hook
 //import ComponentA from './component_Contect_hook/ComponentA';
-import Component_Head from './component_Contect_hook/Component_Head';
+//import Component_Head from './component_Contect_hook/Component_Head';
   //Create contrxt for pass the user name
   //export const userContect = React.createContext()
 
   //create contexts for pass email and city to Component_head
-  export const mailContext = React.createContext()
-  export const cityContect = React.createContext()
+ // export const mailContext = React.createContext()
+ //export const cityContect = React.createContext()
+
+  //useReducer Hook
+  import Counter_01 from './component_useReducer/Counter_01';
+  import Counter_02 from './component_useReducer/counter_02';
 
 function App() {
 
@@ -54,13 +58,17 @@ function App() {
     </userContect.Provider>*/}
 
     {/*Passing emil and city to Component_head */}
-    <mailContext.Provider value={"sithum8@gmail.com"}>
+    {/*<mailContext.Provider value={"sithum8@gmail.com"}>
       <cityContect.Provider value={"Wellawaya"}>
 
           <Component_Head/>
 
       </cityContect.Provider>
-    </mailContext.Provider>
+  </mailContext.Provider>*/}
+
+
+   {/*<Counter_01/>*/}
+   <Counter_02/>
 
     </div>
   );
