@@ -13,7 +13,7 @@ import Hooks_Array_UseState from './components_state_setState/Hooks_Array_UseSta
 import Counter_and_docTitle from './components_useEffect/Counter_and_docTitle';
 import Conditionally_run from './components_useEffect/Conditionally_run';
 import Only_once_useEffect from './components_useEffect/Only_once_useEffect';
-import FetchData_01 from './component_FetchData_useEffect/FetchData_01';
+//import FetchData_01 from './component_FetchData_useEffect/FetchData_01';
 import Fetch_oneDataByID from './component_FetchData_useEffect/Fetch_oneDataByID';
 import Id_from_buttonClick from './component_FetchData_useEffect/Id_from_buttonClick';
 
@@ -30,6 +30,15 @@ import Id_from_buttonClick from './component_FetchData_useEffect/Id_from_buttonC
   //useReducer Hook
   import Counter_01 from './component_useReducer/Counter_01';
   import Counter_02 from './component_useReducer/counter_02';
+  import Counter_03 from './component_useReducer/Counter_03';
+  import FetchData_01 from './component_useReducer/FetchData_01';
+  import Fetchdata_02 from './component_useReducer/Fetchdata_02';
+
+  //useRef
+  import Timer from './component_useRef/Timer';
+
+  //useMemo
+  import MemoCounter from './component_useMemo/MemoCounter';
 
 function App() {
 
@@ -68,7 +77,12 @@ function App() {
 
 
    {/*<Counter_01/>*/}
-   <Counter_02/>
+   {/*<Counter_02/>*/}
+   {/*<Counter_03/>*/}
+   {/*<FetchData_01/>*/}
+   {/*<Fetchdata_02/>*/}
+   {/*<Timer/>*/}
+   <MemoCounter/>
 
     </div>
   );
