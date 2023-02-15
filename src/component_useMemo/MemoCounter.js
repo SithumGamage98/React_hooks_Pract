@@ -7,11 +7,7 @@ export default function MemoCounter() {
     //useState for Counter 02
     const [CountTwo ,setCountTwo] = useState(0)
 
-    useEffect(()=>{
-
-        return countOne % 2 ==0
-
-    })
+    
 
     //IncrementOne function
     const incrementOne = () =>{

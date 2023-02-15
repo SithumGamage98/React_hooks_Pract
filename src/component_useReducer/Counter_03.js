@@ -29,20 +29,16 @@ export default function Counter_03() {
   return (
     <div>
     <div>
-        
        <h2> Count - {count}</h2><br></br>
         <button  onClick={() => dispatch('increment')}>Increment</button>
         <button  onClick={() => dispatch('decrement')}>Decrement</button>
         <button  onClick={() => dispatch('reset')}>Reset</button>
-
     </div>
-
     <div>
     <h2> Count - {countTwo}</h2><br></br>
         <button  onClick={() => dispatchTwo('increment')}>Increment</button>
         <button  onClick={() => dispatchTwo('decrement')}>Decrement</button>
-        <button  onClick={() => dispatchTwo('reset')}>Reset</button>
-        
+        <button  onClick={() => dispatchTwo('reset')}>Reset</button>    
     </div></div>
   )
 }
