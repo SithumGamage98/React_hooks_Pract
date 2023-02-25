@@ -32,9 +32,7 @@ export default function FetchData_01() {
 
         })
 
-
     },[])
-
 
   return (
     <div>
